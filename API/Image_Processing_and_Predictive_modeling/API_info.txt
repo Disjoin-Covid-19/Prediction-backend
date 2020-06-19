@@ -1,0 +1,24 @@
+API Description : 
+
+Time series data API
+
+Inputs / Output Parameters : 
+
+(Curr = True)  - For getting real-time data ( i.eNumber of people visited the supermarket so far (for today) )
+
+(Predict = True) - For getting Predicted data 
+
+(All = True) - For getting complete data ( realtime as well as predicted ) 
+
+
+Example URL:   
+
+http://127.0.0.1:5000/find?All=True
+
+Response Format : 
+
+	JSON {
+		“ Date_time” : value ( string format )
+		…
+		}
+
