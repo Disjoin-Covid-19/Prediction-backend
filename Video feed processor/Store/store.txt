@@ -1,1 +1,0 @@
-Processed images will be loaded in this folder  
