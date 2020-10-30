@@ -15,4 +15,5 @@ def data():
 def load_data():
     filename = path.join(app.root_path, 'MOCK_DATA.json')
     fp = open(filename)
-    return json.load(fp)
+    json_data = json.loads(json.dumps(fp.read()))
+    return json_data
