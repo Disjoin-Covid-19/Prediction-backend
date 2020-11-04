@@ -1,4 +1,5 @@
 tasks:
   - init: source venv/bin/activate
-    command: chmod u+x run_server.sh
-    command: pip install -r requirements.txt
+  - command: chmod u+x run_server.sh
+  - command: pip install -r requirements.txt
+  
