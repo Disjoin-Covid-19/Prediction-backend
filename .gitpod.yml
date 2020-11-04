@@ -1,5 +1,5 @@
 tasks:
-  - init: source venv/bin/activate
-    command: chmod u+x run_server.sh
+  - before: source venv/bin/activate
+    init: chmod u+x run_server.sh
     command: pip install -r requirements.txt
 
