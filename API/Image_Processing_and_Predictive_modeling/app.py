@@ -22,8 +22,8 @@ parser.add_argument('All', type=bool)
 # Mongo DB connection
 
 
-User = 'DisJoin'
-Pass = '1234'
+User = '######'
+Pass = '####'
 conn = MongoClient('mongodb+srv://DisJoin:<password>@cluster0-bk4u2.mongodb.net/<dbname>?retryWrites=true&w=majority')
 
 
